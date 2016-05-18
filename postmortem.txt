@@ -1,0 +1,29 @@
+What went well? ****************
+
+Sunday afternoon Mark, Tyson and I started work on the slack clone project. To make sure we are all on the same page. We downloaded the files from the class page. Issues overcome immediately were the missing config.js and installing the node packages that were required by the project. Once we were up and running our first goal was to add a way to create users to the project.
+
+Mark and Tyson were a great help in congealing my free form ideas. We started by making the app.get request to a create.html page. Once the page was easily accesible from the login page, we started on the app.post portion. It made sense to follow the logic on the login page. I suggested we add logic to check the values being input to make sure we could not create a username duplicate to the existing users. After confirming that the user did not exist we went through a constructor function to create new users and then push them into an array.
+
+After we were able to create and store non existing users to our array, we needed to update our logic to verify that the username and password were correct and stored in our system. This was about the end of our time together and as far as we got on the project.
+
+One thing that I did really well this weekend was to just start writing code. I didn't know exactly the entirety of what was going to be needed but by taking the first steps it was almost as though I started walking downhill with new understanding of what I needed to code next to make my app function.
+
+What went poorly? *******************
+
+React.js is a still a framework that I struggle with. Some of our initial save Node user logic was working but we had a tough time understanding exactly how the flow was going through the program. Mark suggested we console.log after almost every step of the way and we eventually found our solution. I would say that our overall understanding of the flow of the code is just adequate, due to only having written JS for a few weeks. 
+
+We were also limited by time in the library and did not continue to work beyond the hours alloted.
+
+I spent most of my free time on something other than JS this weekend.
+
+What did I learn? ****************
+
+I believe that my understanding of Node using get/post will make serving web apps in the future very easy. I defeinitely am in the habit of writing code without checking exactly what I am returning. The style of coding that Mark and I shared this weekend are completely different. Mark was experiencing writers block but aware of errors while I was coding with no direction. The two styles seemed to work especially well and I see the folly of my ways. In the future I plan to slow down and focus more on what exactly is being passed through my code.
+
+There were several occasions where I asked if all three of us would close our computers so that we might focus on the logic entirely without typing. This was extremely helpful in trying to explain our ideas to each other, without pointing to code.
+
+What did I struggle with? ***************
+
+The optional assignments to add MongoDB or flat files to store data was not even discussed during our time together. I struggled with understanding how the array of messages and the array of users was connected to the react render functions. I would definitely like to explore the connection between front end and back end more. 
+
+
